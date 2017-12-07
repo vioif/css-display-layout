@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 
-.topButtons {
+.title {
 
   margin: 0px auto;
-  width: 100%
+  width: 100%;
   text-alin: center;
   color: white;
   background-color: black;
@@ -20,8 +20,9 @@
 .nav li {
   background-color: grey;
   display: inline-block;
-  padding: 5px;
-  margin: 1px 0px 1px 0px;
+  padding: 10px;
+  margin: 40x 20px 40px 20px;
+  color:white;
 }
 
 .nav a {
@@ -40,6 +41,10 @@
   width: 33.33%;
   margin-bottom: 6px;
   margin-top: 8px;
+}
+
+.editimages {
+  width: 100%;
 }
 
 .images img {
