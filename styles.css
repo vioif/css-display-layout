@@ -1,28 +1,47 @@
-.container {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  background-color: black;
-  padding: 20px;
+* {
+  box-sizing: border-box;
 }
 
 .topButtons {
-  text-align: center;
+
+  margin: 0px auto;
+  width: 100%
+  text-alin: center;
   color: white;
-  background-color: grey;
-  box-sizing: border-box;
-  padding-left: 5px;
-  padding-right: 5px;
+  background-color: black;
 }
 
-.imgFloat
-{
-    float: left;
-    margin: 5px;
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.nav li {
+  background-color: grey;
+  display: inline-block;
+  padding: 5px;
+  margin: 1px 0px 1px 0px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.container h2 {
+  background-color: lightblue;
+  margin: 5px 0px 5px 0px;
+  padding: 10px 10px;
+  font-size: 24px;
+}
+
+.images {
+  width: 33.33%;
+  margin-bottom: 6px;
+  margin-top: 8px;
+}
+
+.images img {
+  width: 100%;
 }
