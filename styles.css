@@ -2,8 +2,11 @@
   box-sizing: border-box;
 }
 
-.title {
+body {
+font-famil: helvetica, sans-serif;
+}
 
+.title {
   margin: 0px auto;
   width: 100%;
   text-alin: center;
@@ -15,14 +18,17 @@
   list-style: none;
   text-align: center;
   margin: 0px auto;
+  display: inline-block;
+  width:600px;
+  height: 10px;
 }
 
 .nav li {
   background-color: grey;
   display: inline-block;
-  padding: 10px;
-  margin: 40x 20px 40px 20px;
-  color:white;
+  padding: 5px;
+  margin: 1px 0px 1px 0px;
+  text-align: center;
 }
 
 .nav a {
@@ -37,16 +43,37 @@
   font-size: 24px;
 }
 
+.container b {
+  text-decoration: underline;
+  text-decoration-color: gold;
+}
+
 .images {
   width: 33.33%;
-  margin-bottom: 6px;
-  margin-top: 8px;
+  margin-bottom: 3px;
+  margin-top: 5px;
 }
 
 .editimages {
-  width: 100%;
+  text-align: center;
+  background-color: gold;
+  margin: 0px 0px 3px 0px;;
 }
 
 .images img {
   width: 100%;
+}
+
+.copyright {
+  background-color: black;
+  margin: 12px 0px 0px 0px;
+}
+
+.copyright p {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13.5px;
 }
